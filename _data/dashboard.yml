@@ -1,0 +1,183 @@
+referrals:
+  rows: 3
+  cols: 3
+
+  metrics:
+
+    - metric: referrals-this-week
+      colours:
+        text: white
+        box: pink
+      row: 1
+      col: 1
+      type: number
+      title: Active referrals
+
+    - metric: new-referrals-this-week
+      colours:
+        text: grey
+        box: light_green
+      row: 1
+      col: 2
+      type: number
+      title: New referrals this week
+
+    - metric: value-for-service-commencements
+      colours:
+        text: white
+        box: dark_green
+      row: 1
+      col: 3
+      type: number
+      title: Value for service commencements
+
+    - metric: referrals-month-by-month
+      colours:
+        text: white
+        box: teal
+      row: 2
+      col: 1
+      width: 2
+      height: 2
+      title: Monthly Referrals
+
+    - metric: referrals-month-by-month
+      id: last-year
+      colours:
+        text: grey
+        box: orange
+      row: 2
+      col: 3
+      type: number
+      title: TITLE
+
+    - metric: referrals-month-by-month
+      id: year-before-last
+      colours:
+        text: grey
+        box: blue
+      row: 3
+      col: 3
+      type: number
+      title: TITLE
+
+performance:
+  rows: 2
+  cols: 4
+  protected: true
+
+  metrics:
+
+    - metric: participation
+      colours:
+        text: white
+        box: set_three_mauve
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 1
+
+    - metric: outdoor-space
+      colours:
+        text: white
+        box: set_three_teal
+      type: chart
+      from: '2005-01-01'
+      to: '*'
+      row: 2
+      col: 1
+
+    - metric: inactivity
+      colours:
+        text: white
+        box: set_three_teal
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 2
+
+    - metric: volunteering
+      colours:
+        text: white
+        box: set_three_mauve
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 3
+
+    - metric: under-utilised-facilities
+      colours:
+        text: white
+        box: set_three_mauve
+      type: number
+      row: 2
+      col: 2
+
+    - metric: csaf-participation
+      colours:
+        text: white
+        box: set_three_teal
+      type: pie
+      row: 2
+      col: 4
+
+    - metric: physical-literacy
+      colours:
+        text: white
+        box: set_three_teal
+      type: number
+      from: '*'
+      to: '*'
+      row: 1
+      col: 4
+
+    - metric: coaching-net-promoter-score
+      colours:
+        text: white
+        box: set_three_mauve
+      type: number
+      row: 2
+      col: 3
+
+test:
+  rows: 2
+  cols: 2
+
+  metrics:
+
+    - metric: participation
+      colours:
+        text: white
+        box: blue
+      type: chart
+      from: '*'
+      to: '*'
+      row: 1
+      col: 1
+
+    - metric: lottery-payments
+      colours:
+        text: white
+        box: green
+      type: target
+      row: 2
+      col: 1
+
+    - metric: facilities
+      colours:
+        text: white
+        box: blue
+      type: number
+      row: 1
+      col: 2
+
+    - metric: csaf-participation
+      colours:
+        text: white
+        box: burgundy
+      type: pie
+      row: 2
+      col: 2

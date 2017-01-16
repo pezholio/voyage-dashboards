@@ -1,0 +1,17 @@
+---
+layout: dashboard
+---
+
+<div id="referrals" class="wrapper" data-title="Referrals">
+  {% include metrics.html dashboard=site.data.dashboard.referrals %}
+</div>
+
+<script>
+  $(document).ready(function() {
+    setInterval(function() {
+      $('#referrals').toggleClass('hidden');
+      title = $('div:not(.hidden)').data('title')
+      $('h1').html(title)
+    }, 30000);
+  })
+</script>
