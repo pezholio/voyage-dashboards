@@ -6,6 +6,10 @@ layout: dashboard
   {% include metrics.html dashboard=site.data.dashboard.referrals %}
 </div>
 
+<div id="referrals" class="wrapper" data-title="Web and social media">
+  {% include metrics.html dashboard=site.data.dashboard.web %}
+</div>
+
 <script>
   $(document).ready(function() {
     setInterval(function() {

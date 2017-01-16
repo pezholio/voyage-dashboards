@@ -61,123 +61,62 @@ referrals:
       type: number
       title: TITLE
 
-performance:
+web:
   rows: 2
-  cols: 4
-  protected: true
+  cols: 3
 
   metrics:
 
-    - metric: participation
+    - metric: facebook-engagement
       colours:
         text: white
-        box: set_three_mauve
-      type: chart
-      from: '*'
-      to: '*'
+        box: pink
+      type: number
       row: 1
       col: 1
+      title: Facebook engagement
 
-    - metric: outdoor-space
+    - metric: facebook-likes
       colours:
-        text: white
-        box: set_three_teal
-      type: chart
-      from: '2005-01-01'
-      to: '*'
-      row: 2
-      col: 1
-
-    - metric: inactivity
-      colours:
-        text: white
-        box: set_three_teal
-      type: chart
-      from: '*'
-      to: '*'
+        text: grey
+        box: light_green
+      type: number
       row: 1
       col: 2
+      title: Facebook likes
 
-    - metric: volunteering
+    - metric: facebook-reach
       colours:
         text: white
-        box: set_three_mauve
-      type: chart
-      from: '*'
-      to: '*'
+        box: dark_green
+      type: number
       row: 1
       col: 3
+      title: Facebook likes
 
-    - metric: under-utilised-facilities
+    - metric: twitter-followers
+      colours:
+        text: grey
+        box: orange
+      type: number
+      row: 2
+      col: 1
+      title: Twitter followers
+
+    - metric: website-sessions
       colours:
         text: white
-        box: set_three_mauve
+        box: light_blue
       type: number
       row: 2
       col: 2
+      title: Website sessions
 
-    - metric: csaf-participation
+    - metric: test-metric
       colours:
         text: white
-        box: set_three_teal
-      type: pie
-      row: 2
-      col: 4
-
-    - metric: physical-literacy
-      colours:
-        text: white
-        box: set_three_teal
-      type: number
-      from: '*'
-      to: '*'
-      row: 1
-      col: 4
-
-    - metric: coaching-net-promoter-score
-      colours:
-        text: white
-        box: set_three_mauve
+        box: teal
       type: number
       row: 2
       col: 3
-
-test:
-  rows: 2
-  cols: 2
-
-  metrics:
-
-    - metric: participation
-      colours:
-        text: white
-        box: blue
-      type: chart
-      from: '*'
-      to: '*'
-      row: 1
-      col: 1
-
-    - metric: lottery-payments
-      colours:
-        text: white
-        box: green
-      type: target
-      row: 2
-      col: 1
-
-    - metric: facilities
-      colours:
-        text: white
-        box: blue
-      type: number
-      row: 1
-      col: 2
-
-    - metric: csaf-participation
-      colours:
-        text: white
-        box: burgundy
-      type: pie
-      row: 2
-      col: 2
+      title: Linked In Visits
