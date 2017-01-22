@@ -92,7 +92,7 @@ web:
       type: number
       row: 1
       col: 3
-      title: Facebook likes
+      title: Facebook reach
 
     - metric: twitter-followers
       colours:
