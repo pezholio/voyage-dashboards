@@ -48,16 +48,7 @@ referrals:
         box: orange
       row: 2
       col: 3
-      type: number
-      title: TITLE
-
-    - metric: referrals-month-by-month
-      id: year-before-last
-      colours:
-        text: grey
-        box: blue
-      row: 3
-      col: 3
+      height: 2
       type: number
       title: TITLE
 

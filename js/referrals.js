@@ -15,12 +15,12 @@ $(function() {
 
     lastYear.attr('src', src)
 
-    var yearBeforeLast = $('#year-before-last');
-    var start = new Date(year - 2, month, 1)
-    var end = new Date(year - 2, month + 1, 0)
-    var src = yearBeforeLast.attr('src').replace('*/*', start.toISOString() + '/' + end.toISOString());
-    src = src.replace('title=TITLE', 'title=Referrals+in+' + monthNames[month -1] + ' ' + String(year - 2) )
-
-    yearBeforeLast.attr('src', src)
+    // var yearBeforeLast = $('#year-before-last');
+    // var start = new Date(year - 2, month, 1)
+    // var end = new Date(year - 2, month + 1, 0)
+    // var src = yearBeforeLast.attr('src').replace('*/*', start.toISOString() + '/' + end.toISOString());
+    // src = src.replace('title=TITLE', 'title=Referrals+in+' + monthNames[month -1] + ' ' + String(year - 2) )
+    //
+    // yearBeforeLast.attr('src', src)
   }
 });
