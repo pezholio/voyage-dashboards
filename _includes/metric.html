@@ -9,13 +9,12 @@
     {% assign fontsize = 4.7 %}
   {% endif %}
   {% assign colour_list = '' %}
-  <div style="postition: relative">
     <iframe src='{{ root_url }}?layout=bare&title={{ include.panel.title }}&boxcolour={{ site.data.colours[include.panel.colours.box] | default: include.panel.colours.box }}&textcolour={{ site.data.colours[include.panel.colours.text] | default: include.panel.colours.text }}&font_size={{ fontsize }}vh&type={{ include.panel.type }}&pie_colours={{ colour_list }}'
             width='100%'
             height='100%'
             frameBorder='0'
             scrolling='no'
-            id='{{ include.panel.id }}'>
+            id='{{ include.panel.id }}'
+            style='position: relative;'>
     </iframe>
-  </div>
 </li>
