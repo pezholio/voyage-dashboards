@@ -1,6 +1,6 @@
 referrals:
-  rows: 3
-  cols: 3
+  rows: 4
+  cols: 4
 
   metrics:
 
@@ -10,6 +10,7 @@ referrals:
         box: pink
       row: 1
       col: 1
+      height: 2
       type: number
       title: Active referrals
 
@@ -19,6 +20,7 @@ referrals:
         box: light_green
       row: 1
       col: 2
+      height: 2
       type: number
       title: New referrals this week
 
@@ -28,29 +30,32 @@ referrals:
         box: dark_green
       row: 1
       col: 3
+      height: 2
       type: number
       title: Value for service commencements
-
-    - metric: referrals-month-by-month
-      colours:
-        text: white
-        box: teal
-      row: 2
-      col: 1
-      width: 2
-      height: 2
-      title: Monthly Referrals
 
     - metric: referrals-month-by-month
       id: last-year
       colours:
         text: grey
         box: orange
-      row: 2
-      col: 3
+      row: 1
+      col: 4
       height: 2
       type: number
       title: TITLE
+
+    - metric: referrals-month-by-month
+      colours:
+        text: white
+        box: teal
+      row: 3
+      col: 1
+      width: 4
+      height: 2
+      title: Referrals 2016
+      from: 2016-01-01T00:00:00Z
+      to: 2016-12-31T00:00:00Z
 
 web:
   rows: 2
