@@ -10,6 +10,10 @@ layout: dashboard
   {% include metrics.html dashboard=site.data.dashboard.web %}
 </div>
 
+<div id="recruitment" class="wrapper" data-title="Recruitment">
+  {% include metrics.html dashboard=site.data.dashboard.recruitment %}
+</div>
+
 <script>
   $(document).ready(function() {
     setInterval(function() {

@@ -116,3 +116,45 @@ web:
       row: 2
       col: 3
       title: Linked In Visits
+
+recruitment:
+  rows: 2
+  cols: 2
+
+  metrics:
+
+    - metric: number-of-applications
+      colours:
+        text: white
+        box: pink
+      type: number
+      row: 1
+      col: 1
+      title: Number of applicants
+
+    - metric: number-of-starters-bank
+      colours:
+        text: grey
+        box: light_green
+      type: number
+      row: 1
+      col: 2
+      title: Number of starters (bank)
+
+    - metric: number-of-starters-perm
+      colours:
+        text: white
+        box: dark_green
+      type: number
+      row: 2
+      col: 1
+      title: Number of starters (perm)
+
+    - metric: number-of-candidates
+      colours:
+        text: grey
+        box: orange
+      type: number
+      row: 2
+      col: 2
+      title: Number of candidates
